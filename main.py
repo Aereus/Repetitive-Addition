@@ -1,4 +1,3 @@
-#repetitive Addition
 def rep(m):
     sum1=0
     while (m > 0):
