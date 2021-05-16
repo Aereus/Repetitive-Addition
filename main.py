@@ -12,6 +12,4 @@ sum = rep(n)
 while(sum >= 10):
     sum = rep(sum)
 print(sum)
-# done
-# howww
-# hogaya
+
