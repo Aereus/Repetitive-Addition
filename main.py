@@ -1,5 +1,5 @@
 # repetitive Addition
-def rep(m):
+def repetitiveAddition(m):
     sum1 = 0
     while (m > 0):
         sum1 = int(sum1 + m % 10)
@@ -8,8 +8,8 @@ def rep(m):
 
 
 n = int(input("Enter a no"))
-sum = rep(n)
+sum = repetitiveAddition(n)
 while(sum >= 10):
-    sum = rep(sum)
+    sum = repetitiveAddition(sum)
 print(sum)
 
